@@ -1,0 +1,40 @@
+C:\Users\asus\source\repos\Library\Library.DB\bin\Debug\Library.DB.dll.config
+C:\Users\asus\source\repos\Library\Library.DB\bin\Debug\Library.DB.dll
+C:\Users\asus\source\repos\Library\Library.DB\bin\Debug\Library.DB.pdb
+C:\Users\asus\source\repos\Library\Library.DB\bin\Debug\EntityFramework.dll
+C:\Users\asus\source\repos\Library\Library.DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\asus\source\repos\Library\Library.DB\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+C:\Users\asus\source\repos\Library\Library.DB\bin\Debug\EntityFramework.xml
+C:\Users\asus\source\repos\Library\Library.DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\asus\source\repos\Library\Library.DB\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+C:\Users\asus\source\repos\Library\Library.DB\obj\Debug\Library.DB.Migrations.initial.resources
+C:\Users\asus\source\repos\Library\Library.DB\obj\Debug\Library.DB.Migrations.secondary.resources
+C:\Users\asus\source\repos\Library\Library.DB\obj\Debug\Library.DB.Migrations.third.resources
+C:\Users\asus\source\repos\Library\Library.DB\obj\Debug\Library.DB.Migrations.fourth.resources
+C:\Users\asus\source\repos\Library\Library.DB\obj\Debug\Library.DB.csproj.GenerateResource.Cache
+C:\Users\asus\source\repos\Library\Library.DB\obj\Debug\Library.DB.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\Library\Library.DB\obj\Debug\Library.DB.dll
+C:\Users\asus\source\repos\Library\Library.DB\obj\Debug\Library.DB.pdb
+C:\Users\asus\source\repos\Library\Library.DB\obj\Debug\Library.DB.csprojResolveAssemblyReference.cache
+C:\Users\asus\source\repos\Library\Library.DB\obj\Debug\Library.DB.Migrations.DisplayNamesChanged.resources
+C:\Users\asus\source\repos\Library\Library.DB\obj\Debug\Library.DB.Migrations.RafAndTur.resources
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\bin\Debug\Library.DB.dll.config
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\bin\Debug\Library.DB.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\bin\Debug\Library.DB.pdb
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\bin\Debug\EntityFramework.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\bin\Debug\EntityFramework.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\obj\Debug\Library.DB.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\obj\Debug\Library.DB.Migrations.initial.resources
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\obj\Debug\Library.DB.Migrations.secondary.resources
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\obj\Debug\Library.DB.Migrations.third.resources
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\obj\Debug\Library.DB.Migrations.fourth.resources
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\obj\Debug\Library.DB.Migrations.DisplayNamesChanged.resources
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\obj\Debug\Library.DB.Migrations.RafAndTur.resources
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\obj\Debug\Library.DB.csproj.GenerateResource.Cache
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\obj\Debug\Library.DB.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\obj\Debug\Library.DB.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.DB\obj\Debug\Library.DB.pdb

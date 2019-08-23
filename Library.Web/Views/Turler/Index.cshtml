@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Library.DB.Turler>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Türler</h2>
+
+<p>
+    @Html.ActionLink("Tür Ekle", "Create", "Turler", "Admin")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ad)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ad)
+        </td>
+        <td>
+            @Html.RoleButton("Düzenle", "Edit", "Turler", "Admin", new { id=item.ID }) |
+            @Html.ActionLink("Sil", "Delete", "Turler", "Admin", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

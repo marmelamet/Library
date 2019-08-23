@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Created By Eren ACAR</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body style="color:#6f0c0c;">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#4451a5;">
+        <div class="container" style="color:#f7e9e9">
+            <div class="navbar-header" style="color:#f7e9e9"!important >
+                <button type="button" style="color:#f7e9e9" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Kütüphane", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" style="max-width:90%;color:#222222">
+                    <li>@Html.ActionLink("Kitaplar", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Yazarlar", "Index", "Yazarlar")</li>
+                    <li>@Html.RoleButton("Kullanıcılar", "Index", "Kullanicilar", "Admin")</li>
+                    <li>@Html.ActionLink("Kullanım Detay", "Index", "KullanimDetay")</li>
+                    <li>@Html.ActionLink("Yorumlar", "Index", "Yorumlar")</li>
+                    <li>@Html.RoleButton("Raflar", "Index", "Raflar", "Admin")</li>
+                    <li>@Html.RoleButton("Roller", "Index", "Roller", "Admin")</li>
+                    <li>@Html.RoleButton("Turler", "Index", "Turler", "Admin")</li>
+                </ul>
+                <ul class="nav navbar-nav" style="float:right">
+                <li>
+                    <span style="padding-top:15px;padding-bottom:15px;margin-left:60px;display:block;" class="username">
+                        <i class="glyphicon glyphicon-user"></i> @Html.Action("GetActiveUser", "Home")
+                    </span>
+                </li>
+                <li>@Html.ActionLink("Çıkış", "Logout", "Security")</li></ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Created By Eren ACAR</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

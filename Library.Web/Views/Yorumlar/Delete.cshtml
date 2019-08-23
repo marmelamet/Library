@@ -1,0 +1,48 @@
+﻿@model Library.DB.Yorumlar
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Sil</h2>
+
+<h3>Seçtiğiniz veri silinecek. Emin misiniz?</h3>
+<div>
+    <h4>Yorumlar</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Kitaplar.ISBN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kitaplar.ISBN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kullanicilar.TCKimlik)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kullanicilar.TCKimlik)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.yorum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.yorum)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("<< Yorumlar", "Index")
+        </div>
+    }
+</div>

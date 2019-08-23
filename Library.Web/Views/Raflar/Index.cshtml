@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Library.DB.Raflar>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Raflar</h2>
+
+<p>
+    @Html.ActionLink("Raf Ekle", "Create", "Raflar", "Admin")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Turler.ad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rafSayisi)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Turler.ad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rafSayisi)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", "Raflar", "Admin", new { id=item.ID }) |
+            @Html.ActionLink("Sil", "Delete", "Raflar", "Admin", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

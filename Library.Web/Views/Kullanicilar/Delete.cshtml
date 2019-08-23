@@ -1,0 +1,95 @@
+﻿@model Library.DB.Kullanicilar
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Sil</h2>
+
+<h3>Bence bi insanı bu kadar kolay harcamamalısın hacı. Güçlü olman sana bunu ota moka kullanma hakkı vermez.</h3>
+<div>
+    <h4>Kullanıcılar</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.iller.sehir)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.iller.sehir)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Roller.rolAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Roller.rolAdi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TCKimlik)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TCKimlik)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.kullaniciAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.kullaniciAdi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sifre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sifre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.soyad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.soyad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.adres)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.adres)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("<< Kullanıcılar", "Index")
+        </div>
+    }
+</div>

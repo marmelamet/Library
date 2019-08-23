@@ -1,0 +1,48 @@
+﻿@model Library.DB.Raflar
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Sil</h2>
+
+<h3>Bak bunu silersen ters bi durum olur bişey olur uyarmadı deme.</h3>
+<div>
+    <h4>Raflar</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.turID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.turID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rafSayisi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rafSayisi)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("<< Raflar", "Index")
+        </div>
+    }
+</div>

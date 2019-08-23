@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Library.DB.Yazarlar>
+
+@{
+    ViewBag.Title = "YazarlarController";
+}
+
+<h2>Yazarlar</h2>
+
+<p>
+    @Html.RoleButton("Yazar Ekle", "Create", "Yazarlar", "Admin")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.soyad)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.soyad)
+        </td>
+        <td>
+            @Html.RoleButton("Düzenle", "Edit", "Yazarlar", "Admin", new { id=item.ID }) |
+            @Html.RoleButton("Sil", "Delete", "Yazarlar", "Admin", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

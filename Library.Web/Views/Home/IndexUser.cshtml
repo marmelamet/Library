@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Library.DB.Kitaplar>
+
+@{
+    ViewBag.Title = "IndexUser";
+}
+
+<h2>Kitaplar</h2>
+
+<p>
+    @Html.RoleButton("Kitap Ekle", "Create", "Kitaplar", "Admin") 
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Raflar.ad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Turler.ad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Yazarlar.ad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ISBN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.yayinevi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cevirmen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.basimYili)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Raflar.ad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Turler.ad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Yazarlar.ad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ISBN)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.yayinevi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cevirmen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.basimYili)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", "Kitaplar", "Admin", new { id=item.ID }) |
+            @Html.ActionLink("Sil", "Delete", "Kitaplar", "Admin", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

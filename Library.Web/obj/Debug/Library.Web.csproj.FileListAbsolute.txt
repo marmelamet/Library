@@ -1,0 +1,102 @@
+C:\Users\asus\source\repos\Library\Library.Web\bin\ApplicationInsights.config
+C:\Users\asus\source\repos\Library\Library.Web\bin\Library.Web.dll.config
+C:\Users\asus\source\repos\Library\Library.Web\bin\Library.Web.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Library.Web.pdb
+C:\Users\asus\source\repos\Library\Library.Web\bin\Antlr3.Runtime.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.AI.Web.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Newtonsoft.Json.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.Helpers.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.Mvc.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.Optimization.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.Razor.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.WebPages.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\WebGrease.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.Helpers.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.Mvc.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.Optimization.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.Razor.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.WebPages.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\Antlr3.Runtime.pdb
+C:\Users\asus\source\repos\Library\Library.Web\bin\Newtonsoft.Json.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\Microsoft.AI.Web.xml
+C:\Users\asus\source\repos\Library\Library.Web\obj\Debug\Library.Web.csprojResolveAssemblyReference.cache
+C:\Users\asus\source\repos\Library\Library.Web\obj\Debug\Library.Web.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\Library\Library.Web\obj\Debug\Library.Web.dll
+C:\Users\asus\source\repos\Library\Library.Web\obj\Debug\Library.Web.pdb
+C:\Users\asus\source\repos\Library\Library.Web\bin\Library.DB.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Library.DB.pdb
+C:\Users\asus\source\repos\Library\Library.Web\bin\Library.DB.dll.config
+C:\Users\asus\source\repos\Library\Library.Web\bin\EntityFramework.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\EntityFramework.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\asus\source\repos\Library\Library.Web\bin\Z.EntityFramework.Plus.EF6.dll
+C:\Users\asus\source\repos\Library\Library.Web\bin\Z.EntityFramework.Plus.EF6.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\ApplicationInsights.config
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Library.Web.dll.config
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Library.Web.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Library.Web.pdb
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Antlr3.Runtime.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\EntityFramework.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Library.DB.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.AI.Web.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Newtonsoft.Json.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.Helpers.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.Mvc.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.Optimization.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.Razor.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.WebPages.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\WebGrease.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Z.EntityFramework.Plus.EF6.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Library.DB.pdb
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Library.DB.dll.config
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\EntityFramework.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Newtonsoft.Json.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.Helpers.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.Mvc.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.Optimization.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.Razor.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.WebPages.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Antlr3.Runtime.pdb
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Microsoft.AI.Web.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\bin\Z.EntityFramework.Plus.EF6.xml
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\obj\Debug\Library.Web.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\obj\Debug\Library.Web.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\obj\Debug\Library.Web.dll
+C:\Users\asus\Desktop\Bilişim Eğitim Merkezi\PROJE BEM\MVC Library\Library\Library.Web\obj\Debug\Library.Web.pdb

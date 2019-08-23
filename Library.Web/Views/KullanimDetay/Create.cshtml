@@ -1,0 +1,58 @@
+﻿@model Library.DB.KullanimDetay
+@using Library.DB
+@using System.Web.Mvc
+@{
+    ViewBag.Title = "Create";
+    List<Kitaplar> kitap = ViewBag.KitapList;
+    List<Kullanicilar> kullanici = ViewBag.KullaniciList;
+}
+
+<h2>Yeni Kayıt</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Kullanım Detay</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.kitapID, "kitapID", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("kitapID", kitap.Select(c => new SelectListItem { Text = c.ad, Value = c.ID.ToString() }), "Seçiniz", htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.kitapID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.kullaniciID, "kullaniciID", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("kullaniciID", kullanici.Select(c => new SelectListItem { Text = c.kullaniciAdi, Value = c.ID.ToString() }), "Seçiniz", htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.kullaniciID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.teslimTarihi, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.teslimTarihi, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.teslimTarihi, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('.datepicker').datepicker();
+            });
+        </script>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Kaydet" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("<< Kullanım Detayları", "Index")
+</div>

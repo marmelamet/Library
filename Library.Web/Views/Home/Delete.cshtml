@@ -1,0 +1,88 @@
+﻿@model Library.DB.Kitaplar
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Sil</h2>
+
+<h3>Seçtiğiniz veri silinecek. Emin misiniz?</h3>
+<div>
+    <h4>Kitaplar</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Raflar.ad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Raflar.ad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Turler.ad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Turler.ad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Yazarlar.ad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Yazarlar.ad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ISBN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ISBN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.yayinevi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.yayinevi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cevirmen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cevirmen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.basimYili)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.basimYili)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            @Html.HiddenFor(m => m.ID)
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("<< Kitaplar", "Index")
+        </div>
+    }
+</div>

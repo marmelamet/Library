@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Library.DB.Roller>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Roller</h2>
+
+<p>
+    @Html.ActionLink("Yeni Rol Ekle", "Create", "Roller", "Admin")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.rolAdi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.aciklama)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.rolAdi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.aciklama)
+        </td>
+        <td>
+            @Html.ActionLink("Düzenle", "Edit", "Roller", "Admin", new { id=item.ID }) |
+            @Html.ActionLink("Sil", "Delete", "Roller", "Admin", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

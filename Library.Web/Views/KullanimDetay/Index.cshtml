@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Library.DB.KullanimDetay>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Kullanım Detayları</h2>
+
+<p>
+    @Html.RoleButton("Yeni Kayıt", "Create", "KullanimDetay", "Admin")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Kitaplar.ad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Kullanicilar.TCKimlik)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.teslimTarihi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.iadeTarihi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gunSayisi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ceza)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kitaplar.ad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kullanicilar.TCKimlik)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.teslimTarihi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.iadeTarihi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.gunSayisi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ceza)
+            </td>
+            <td>
+                @Html.RoleButton("Düzenle", "Edit", "KullanimDetay", "Admin", new { id = item.ID }  ) |
+                @Html.RoleButton("Sil", "Delete", "KullanimDetay", "Admin", new { id = item.ID })
+                @if (item.iadeTarihi.HasValue == false)
+                {
+                    <text> | </text>
+                    @Html.RoleButton("İade Al", "IadeAl", "KullanimDetay", "Admin", new { id = item.ID })
+                }
+
+            </td>
+        </tr>
+    }
+
+</table>

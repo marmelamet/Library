@@ -1,0 +1,71 @@
+﻿@model Library.DB.KullanimDetay
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Sil</h2>
+
+<h3>Seçtiğiniz veri silinecek. Emin misiniz?</h3>
+<div>
+    <h4>Kullanım Detay</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Kitaplar.ISBN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kitaplar.ISBN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kullanicilar.TCKimlik)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kullanicilar.TCKimlik)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.teslimTarihi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.teslimTarihi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.iadeTarihi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.iadeTarihi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.gunSayisi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.gunSayisi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ceza)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ceza)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Sil" class="btn btn-default" /> |
+            @Html.ActionLink("<< Kullanıcılar", "Index")
+        </div>
+    }
+</div>

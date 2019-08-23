@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Library.DB.Yorumlar>
+@using Library.DB
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detaylar</h2>
+<h3>Kitap Adı : @ViewBag.KitapAd</h3>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Kullanicilar.ad)   @Html.DisplayNameFor(model => model.Kullanicilar.soyad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.yorum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.olusturmaTarihi)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kullanicilar.ad)   @Html.DisplayFor(modelItem => item.Kullanicilar.soyad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.yorum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.olusturmaTarihi)
+            </td>         
+            <td>
+                @Html.RoleButton("Sil", "Delete", "Yorumlar", "Admin", new { id = item.ID })
+            </td>
+        </tr>
+    }
+
+</table>
